@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Weather Information</title>
+<style type="text/css">
+h1{
+text-align:center;
+}	
+.table{
+align:center;
+}
+table{
+text-align:center;
+height:20px;
+}
+</style>
+</head>
+<body>
+	<h1>Weather Information</h1>
+	<form action="http://localhost:8090/cisco/WeatherInfoServlet">
+	<div class="table">
+	<table align="center">
+	<tr> <td> Enter Zip </td> <td>:<input type = "number" name = "zip" /></td></tr><tr></tr><tr></tr>
+	<tr> <td> </td><td><input type = "submit" value = " Get Weather Information" /></td></tr>
+	</table>
+	</div>
+	</form>
+</body>
+</html>
